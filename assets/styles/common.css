@@ -1,0 +1,6 @@
+@import url('typography.css');
+
+body {
+    font-family: Lato, Helvetica, sans-serif;
+    color: var(--white);
+}
