@@ -4,3 +4,9 @@ body {
     font-family: Lato, Helvetica, sans-serif;
     color: var(--white);
 }
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,73 @@
+@import url('constants.css');
+
+.text-black {
+    color: var(--black);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.section-title {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-sm {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.text-xsm {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .section-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .text-sm {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .text-xsm {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .description {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .text-sm {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .text-xsm {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

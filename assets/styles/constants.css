@@ -1,5 +1,3 @@
-
-
 :root {
     /*colors*/
     --yellow: #F5D240;
@@ -9,11 +7,5 @@
     --black: #040404;
     --dark-gray: #2F2F33;
     --laght-graay: #D7D8DA;
-
-    /*media breakpoints*/
-
-    --desktop: 1440px;
-    --tablet: 744px;
-    --mobile: 321px;
 }
 

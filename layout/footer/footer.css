@@ -17,7 +17,32 @@
 }
 
 
-@media (min-width: 744px) {
+.donation {
+    margin: 24px 0;
+    padding: 10px 9px;
+    font-size: 16px;
+    background: var(--white);
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .logo {
+        margin-bottom: 40px;
+        padding: 22px 32px;
+    }
+
+    .donation {
+        margin-top: 32px;
+        margin-bottom: 22px;
+        background: var(--white);
+    }
+}
+
+@media (min-width: 768px) {
     .footer {
         padding-top: 40px;
         padding-bottom: 57px;
@@ -26,16 +51,11 @@
     .logo {
         margin-bottom: 40px;
     }
+
+    .donation {
+        display: none;
+    }
 }
 
-@media (min-width: 321px) and (max-width: 743px) {
-    .footer {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    
-    .logo {
-        margin-bottom: 40px;
-    }
-}
+
 
