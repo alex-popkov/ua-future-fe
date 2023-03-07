@@ -18,6 +18,10 @@
     line-height: 24px;
 }
 
+.text-md {
+    font-size: 18px;
+}
+
 .text-sm {
     font-size: 14px;
     line-height: 21px;
@@ -37,6 +41,10 @@
     .description {
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .text-md {
+        font-size: 18px;
     }
 
     .text-sm {
@@ -59,6 +67,10 @@
     .description {
         font-size: 18px;
         line-height: 28px;
+    }
+
+    .text-md {
+        font-size: 24px;
     }
 
     .text-sm {

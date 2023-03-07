@@ -9,4 +9,6 @@ body {
     cursor: pointer;
 }
 
-
+.bg-white {
+    background: var(--white);
+}
