@@ -6,27 +6,27 @@
     background: var(--black);
 }
 
-
-
 .logo {
     margin-bottom: 24px;
 }
 
 .logo img {
-
+    width: 143px;
 }
-
 
 .donation {
     margin: 24px 0;
-    padding: 10px 9px;
+    padding: 10px 8px;
     font-size: 16px;
+    background: var(--white);
 }
 
-
 .social-media {
-    margin-top: 16px;
     padding: 10px 18px;
+}
+
+.social-media:hover {
+    text-decoration: none;
 }
 
 .contact {
@@ -41,7 +41,13 @@
     margin-top: 24px;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (max-width: 348px) {
+    .social-media span {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
     .footer {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -49,22 +55,25 @@
 
     .logo {
         margin-bottom: 40px;
-        padding: 22px 32px;
+    }
+
+    .logo img {
+        width: 169px;
     }
 
     .donation {
         margin-top: 32px;
         margin-bottom: 22px;
-        background: var(--white);
+        padding: 22px 32px;
     }
 
     .social-media {
-        margin-top: 32px;
+        margin-top: 8px;
         padding: 10px 18px;
     }
 
     .contact {
-        margin-bottom: 0;
+        margin-bottom: 24px;
     }
 
     .contact-title {
@@ -77,7 +86,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .footer {
         padding-top: 40px;
         padding-bottom: 57px;
@@ -87,8 +96,8 @@
         margin-bottom: 40px;
     }
 
-    .donation {
-        display: none;
+    .logo img {
+        width: 371px;
     }
 
     .social-media {
@@ -96,8 +105,12 @@
         padding: 12px 32px;
     }
 
+    .social-media--first {
+        margin-bottom: 24px;
+    }
+
     .contact {
-        margin-bottom: 0;
+        margin-bottom: 24px;
     }
 
     .contact-title {
@@ -106,6 +119,11 @@
 
     .copyright {
         margin-top: 0;
+        bottom: 0;
+    }
+
+    .how-to-support {
+        position: static;
     }
 }
 

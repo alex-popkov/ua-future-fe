@@ -1,0 +1,23 @@
+.icon {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+.icon-sm {
+    width: 12px;
+    height: 13px;
+    background-size: contain;
+}
+
+.icon-fb {
+    background: url('../images/icon-fb.svg');
+}
+
+.icon-ig {
+    background: url('../images/icon-ig.svg');
+}
+
+.icon-arrow-right {
+    background: url('../images/icon-arrow-right.svg');
+}
