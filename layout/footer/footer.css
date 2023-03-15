@@ -10,10 +10,6 @@
     margin-bottom: 24px;
 }
 
-.logo img {
-    width: 143px;
-}
-
 .donation {
     margin: 24px 0;
     padding: 10px 8px;
@@ -57,10 +53,6 @@
         margin-bottom: 40px;
     }
 
-    .logo img {
-        width: 169px;
-    }
-
     .donation {
         margin-top: 32px;
         margin-bottom: 22px;
@@ -94,10 +86,6 @@
 
     .logo {
         margin-bottom: 40px;
-    }
-
-    .logo img {
-        width: 371px;
     }
 
     .social-media {
