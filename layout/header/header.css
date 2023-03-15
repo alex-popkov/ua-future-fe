@@ -4,7 +4,14 @@
 }
 
 .lang-selector {
-    min-width: 82px;
+    min-width: 73px;
 }
 
+.header .navbar .navbar-toggler {
+    border-color: transparent;
+}
+
+.header .navbar .navbar-toggler:focus {
+    outline: none;
+}
 
