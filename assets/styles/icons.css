@@ -2,6 +2,8 @@
     width: 20px;
     height: 20px;
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-sm {
@@ -11,13 +13,22 @@
 }
 
 .icon-fb {
-    background: url('../images/icon-fb.svg');
+    background-image: url('../images/icons/icon-fb.svg');
 }
 
 .icon-ig {
-    background: url('../images/icon-ig.svg');
+    background-image: url('../images/icons/icon-ig.svg');
 }
 
 .icon-arrow-right {
-    background: url('../images/icon-arrow-right.svg');
+    background-image: url('../images/icons/icon-arrow-right.svg');
+}
+
+
+.icon-burger {
+    background-image: url('../images/icons/icon-burger.svg');
+}
+
+.icon-close {
+    background-image: url('../images/icons/icon-close.svg');
 }

@@ -7,11 +7,31 @@
     min-width: 73px;
 }
 
+.lang-toggler {
+    line-height: 28px;
+}
+
 .header .navbar .navbar-toggler {
     border-color: transparent;
 }
 
 .header .navbar .navbar-toggler:focus {
     outline: none;
+}
+
+.navbar-toggler .icon-burger {
+    display: flex;
+}
+
+.navbar-toggler .icon-close {
+    display: none;
+}
+
+.navbar-toggler[aria-expanded="true"] .icon-close {
+    display: flex;
+}
+
+.navbar-toggler[aria-expanded="true"] .icon-burger {
+    display: none;
 }
 
