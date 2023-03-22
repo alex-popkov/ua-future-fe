@@ -10,23 +10,19 @@
     color: var(--white);
 }
 
-.section--2 {
-    background: var(--yellow);
-    color: var(--black);
-}
-
 .section--1_content {
     padding-top: 40px;
     padding-bottom: 80px;
 }
 
+.section--2 {
+    background: var(--yellow);
+    color: var(--black);
+}
+
 .section--2_content {
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.mb-40 {
-    margin-bottom: 40px;
 }
 
 .donation--in-section {
@@ -38,8 +34,27 @@
     height: auto;
 }
 
-.section-2-block-mb {
+.section--2-block-mb {
     margin-bottom: 24px;
+}
+
+.section--3 {
+    background: var(--blue);
+    color: var(--white);
+}
+
+.section--3_content {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.section--3_logo {
+    background: var(--laght-gray);
+    width: 100%;
+}
+
+.section--3_logo img {
+    max-width: 100%;
 }
 
 
@@ -67,8 +82,21 @@
         height: auto;
     }
 
-    .section-2-block-mb {
+    .section--2-block-mb {
         margin-bottom: 40px;
+    }
+
+    .section--3_content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .section--3_logo {
+        width: 80%;
+    }
+
+    .section--3_logo img {
+        max-width: 200px;
     }
 }
 
@@ -96,11 +124,21 @@
     /*    height: 552px;*/
     /*}*/
 
-    .section-2-block-mb.section-2-img {
+    .section--2-block-mb.section-2-img {
         margin-bottom: 0;
     }
 
-    .section-2-block-mb {
+    .section--2-block-mb {
         margin-bottom: 40px;
+    }
+
+    .section--3_content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+    .section--3_logo {
+        width: 100%;
     }
 }
