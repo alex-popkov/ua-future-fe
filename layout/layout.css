@@ -1,5 +1,19 @@
-.layout {
+@import url('footer/footer.css');
+@import url('header/header.css');
 
+.layout {
+    min-height: 100vh;
 }
+
+.content-padding-top {
+    padding-top: var(--header-height);
+}
+
+@media (min-width: 1200px) {
+    .content-padding-top {
+        padding-top: var(--header-height-xl);
+    }
+}
+
 
 

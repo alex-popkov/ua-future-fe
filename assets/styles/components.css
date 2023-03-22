@@ -1,0 +1,26 @@
+
+.white-arrow-btn {
+    padding: 10px 8px;
+    background: var(--white);
+    color: var(--black);
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .white-arrow-btn {
+        padding: 22px 32px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .white-arrow-btn {
+        padding: 22px 32px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

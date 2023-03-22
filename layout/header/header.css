@@ -1,6 +1,23 @@
 .header {
-    background: rgba(10, 10, 10, 0.2)
-    /*background: rgba(247, 247, 247, 0.2);*/
+    /*background: rgba(10, 10, 10, 1);*/
+    background: rgba(247, 247, 247, 0.2);
+    min-height: var(--header-height);
+    color: var(--white);
+}
+
+.navbar {
+    padding-left: 0;
+}
+
+.navigation--toggler.navbar {
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+}
+
+@media (min-width: 1200px) {
+    .header {
+        height: var(--header-height-xl);
+    }
 }
 
 .lang-selector {
