@@ -12,6 +12,10 @@ body {
     background: var(--white);
 }
 
+.border {
+    border: 1px solid var(--black);
+}
+
 
 .logo img {
     width: 143px;
