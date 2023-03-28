@@ -5,6 +5,10 @@
     color: var(--white);
 }
 
+.header:has(.navbar-toggler[aria-expanded="true"]) {
+    background: var(--black);
+}
+
 .navbar {
     padding-left: 0;
 }

@@ -1,8 +1,6 @@
 
-.white-arrow-btn {
+.arrow-btn {
     padding: 10px 8px;
-    background: var(--white);
-    color: var(--black);
     border: none;
     font-size: 16px;
     line-height: 24px;
@@ -10,7 +8,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-    .white-arrow-btn {
+    .arrow-btn {
         padding: 22px 32px;
         font-size: 16px;
         line-height: 24px;
@@ -18,7 +16,7 @@
 }
 
 @media (min-width: 1200px) {
-    .white-arrow-btn {
+    .arrow-btn {
         padding: 22px 32px;
         font-size: 18px;
         line-height: 28px;
@@ -118,4 +116,39 @@
     .ua-slider .carousel-inner {
         padding-bottom: 40px;
     }
+}
+
+/*tabs*/
+.ua-tab {
+    width: 100%;
+    padding: 15px 24px;
+    color: var(--black);
+    text-transform: uppercase;
+    background: var(--white);
+    border-bottom: 1px solid var(--laght-gray);
+    text-decoration: none;
+}
+
+.ua-tab:hover {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.ua-tab.active {
+    color: var(--white);
+    background: var(--black);
+    border-bottom: 1px solid var(--black);
+}
+
+.ua-tab.active:hover {
+    color: var(--white);
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }

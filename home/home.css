@@ -67,6 +67,26 @@
     color: var(--white);
 }
 
+.section--6 {
+    background: var(--red);
+}
+
+.section--6 .ua-tab-content {
+    min-height: 555px;
+}
+
+.transfer-back-link {
+    margin-bottom: 58px;
+}
+
+.choose-transfer-account .transfer-back-link {
+    margin-bottom: 58px;
+}
+
+.transfer-back-link .icon-arrow-right {
+    margin-right: 20px;
+}
+
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .donation--in-section {
@@ -108,6 +128,18 @@
     .section--3_logo img {
         max-width: 200px;
     }
+
+    .section--6 .ua-tab-content {
+        min-height: 519px;
+    }
+
+    .transfer-back-link {
+        margin-bottom: 18px;
+    }
+
+    .choose-transfer-account .transfer-back-link {
+        margin-bottom: 74px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -145,5 +177,25 @@
 
     .section--3_logo {
         width: 100%;
+    }
+
+    .section--6 .ua-tab-content {
+        min-height: 597px;
+    }
+
+    .transfer-back-link {
+        margin-bottom: 64px;
+    }
+
+    .choose-transfer-account .transfer-back-link {
+        margin-bottom: 163px;
+    }
+
+    .what-do-you-want-to-donate {
+        padding-top: 48px;
+    }
+
+    .donate-submit-btn {
+        margin-top: 112px;
     }
 }

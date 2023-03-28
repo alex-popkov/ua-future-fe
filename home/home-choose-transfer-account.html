@@ -421,33 +421,73 @@
                                     </div>
 
 <!--                                    payment method selection-->
-                                    <div class="ua-tab-content bg-white">
+                                    <div class="choose-transfer-account ua-tab-content bg-white">
+                                        <a class="transfer-back-link cursor-pointer no-decoration-link text-uppercase d-flex align-items-center text-sm">
+                                            <i class="icon-sm icon-arrow-right rotate-180">
+                                            </i>
+                                            <span>
+                                                BACK TO PAYMENT METHOD
+                                            </span>
+                                        </a>
                                         <div class="row">
-                                            <div class="col-12 col-xl-6">
-                                                <h2 class="text-uppercase font-weight-semibold text-xl mb-4">
-                                                    SELECT PAYMENT METHOD
-                                                </h2>
-                                                <p class="description">
-                                                    We would appreciate any support of our campaign and mission. You can rest assured that your donations will help exactly those in real need.
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-xl-6">
-                                                <a href="#"
-                                                   class="no-decoration-link text-black d-block ua-border-black text-uppercase mb-4 mb-xl-6 py-2 px-4 py-md-4 px-md-6 py-xl-6 px-xl-8">
-                                                    bank transfer
-                                                </a>
-                                                <a href="#"
-                                                   class="no-decoration-link text-black d-block ua-border-black text-uppercase mb-4 mb-xl-6 py-2 px-4 py-md-4 px-md-6 py-xl-6 px-xl-8">
-                                                    PAYPAL
-                                                </a>
-                                                <a href="#"
-                                                   class="no-decoration-link text-black d-block ua-border-black text-uppercase mb-4 mb-xl-6 py-2 px-4 py-md-4 px-md-6 py-xl-6 px-xl-8">
-                                                    CC PAYMENT
-                                                </a>
-                                                <a href="#"
-                                                   class="no-decoration-link text-black d-block ua-border-black text-uppercase py-2 px-4 py-md-4 px-md-6 py-xl-6 px-xl-8">
-                                                    SWIFT
-                                                </a>
+                                            <div class="col-12">
+                                                <div onclick="copyToClipboard('pln-account')"
+                                                     data-toggle="tooltip"
+                                                     data-placement="top"
+                                                     title="Click to copy"
+                                                     class="cursor-pointer d-md-flex d-block justify-content-center align-items-center text-black text-uppercase mb-4 mb-xl-6  py-md-4 px-md-6 py-xl-0 px-xl-0">
+                                                    <div class="font-weight-bold text-uppercase mr-4">
+                                                        PLN
+                                                    </div>
+                                                    <div id="pln-account">
+                                                        PL 10 1140 2004 0000 3202 8238 9298
+                                                    </div>
+                                                    <i class="icon-sm icon-copy d-none d-xl-inline-block ml-4">
+                                                    </i>
+                                                </div>
+                                                <div onclick="copyToClipboard('usd-account')"
+                                                     data-toggle="tooltip"
+                                                     data-placement="top"
+                                                     title="Click to copy"
+                                                     class="cursor-pointer d-md-flex d-block justify-content-center align-items-center text-black text-uppercase mb-4 mb-xl-6 py-md-4 px-md-6 py-xl-0 px-xl-0">
+                                                    <div class="font-weight-bold text-uppercase mr-4">
+                                                        USD
+                                                    </div>
+                                                    <div id="usd-account">
+                                                        PL 50 1140 2004 0000 3012 1572 0930
+                                                    </div>
+                                                    <i class="icon-sm icon-copy d-none d-xl-inline-block ml-4">
+                                                    </i>
+                                                </div>
+                                                <div onclick="copyToClipboard('eur-account')"
+                                                     data-toggle="tooltip"
+                                                     data-placement="top"
+                                                     title="Click to copy"
+                                                     class="cursor-pointer d-md-flex d-block justify-content-center align-items-center text-black text-uppercase mb-4 mb-xl-6 py-md-4 px-md-6 py-xl-0 px-xl-0">
+                                                    <div class="font-weight-bold text-uppercase mr-4">
+                                                        eur
+                                                    </div>
+                                                    <div id="eur-account">
+                                                        PL 60 1140 2004 0000 3812 1572 0940
+                                                    </div>
+                                                    <i class="icon-sm icon-copy d-none d-xl-inline-block ml-4">
+                                                    </i>
+                                                </div>
+                                                <div onclick="copyToClipboard('jpy-account')"
+                                                     data-toggle="tooltip"
+                                                     data-placement="top"
+                                                     title="Click to copy"
+                                                     class="cursor-pointer d-md-flex d-block justify-content-center align-items-center text-black text-uppercase mb-4 mb-xl-6 py-md-4 px-md-6 py-xl-0 px-xl-0">
+                                                    <div class="font-weight-bold text-uppercase mr-4">
+                                                        jpy
+                                                    </div>
+                                                    <div id="jpy-account">
+                                                        PL 03 1140 2004 0000 3112 1572 0951
+                                                    </div>
+                                                     <i class="icon-sm icon-copy d-none d-xl-inline-block ml-4">
+                                                     </i>
+                                                </div>
+
                                             </div>
                                         </div>
 
@@ -567,5 +607,6 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script  src="../js-utils/utils.js"></script>
+
     </body>
 </html>
