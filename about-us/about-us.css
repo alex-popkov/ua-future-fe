@@ -1,0 +1,49 @@
+.about-us .section-main {
+    background: url('../assets/images/about-us-1-bg.png') no-repeat center;
+    background-size: cover;
+    color: var(--white);
+}
+
+
+.about-us .section--3 {
+    background: var(--yellow);
+}
+
+
+.video-block {
+    padding: 24px 16px;
+}
+
+.video {
+    max-width: 100%;
+}
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+.teammate-wrapper {
+    /*width: 50%;*/
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .video-block {
+        padding: 32px;
+    }
+
+    .teammate-wrapper {
+        /*width: 25%;*/
+    }
+}
+
+@media (min-width: 1200px) {
+    .video-block {
+        padding: 32px;
+    }
+
+    .teammate-wrapper {
+        /*width: 20%;*/
+    }
+}

@@ -22,6 +22,14 @@
     background-image: url('../images/icons/icon-ig.svg');
 }
 
+.icon-tw {
+    background-image: url('../images/icons/icon-tw.svg');
+}
+
+.icon-li {
+    background-image: url('../images/icons/icon-li.svg');
+}
+
 .icon-arrow-right {
     background-image: url('../images/icons/icon-arrow-right.svg');
 }

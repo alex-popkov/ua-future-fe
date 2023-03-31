@@ -69,6 +69,12 @@
     padding-bottom: 40px;
 }
 
+.ua-slider .carousel-item img {
+    max-height: 600px;
+    width: auto;
+    margin: 0 auto;
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
     .ua-slider_controls {
         padding-left: 56px;
@@ -145,10 +151,41 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 1199px) {
+/*teammate*/
 
+.teammate-avatar {
+    /*width: 138px;*/
+    /*height: 137px;*/
+}
+
+.teammate .social-icon {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .teammate .social-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .teammate-avatar {
+        /*width: 176px;*/
+        /*height: 157px;*/
+    }
 }
 
 @media (min-width: 1200px) {
+    .teammate .social-icon {
+        width: 32px;
+        height: 32px;
+    }
 
+    .teammate-avatar {
+        /*width: 236px;*/
+        /*height: 249px;*/
+    }
 }
