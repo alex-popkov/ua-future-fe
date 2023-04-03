@@ -26,11 +26,6 @@
 
 /*slider*/
 
-.ua-slider .carousel-control-next {
-    width: 56px;
-    height: 56px;
-}
-
 .ua-slider .carousel-control-prev {
     background: var(--black);
 }
@@ -42,6 +37,7 @@
     align-items: center;
     width: 40px;
     height: 40px;
+    opacity: 1;
 }
 
 .ua-slider_controls {

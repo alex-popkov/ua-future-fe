@@ -1,0 +1,12 @@
+.our-partners {
+    background: var(--blue);
+}
+
+.our-partners .partner:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.partner-logo {
+    max-width: 236px;
+    height: auto;
+}

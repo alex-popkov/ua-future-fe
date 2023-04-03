@@ -56,3 +56,15 @@
     display: none;
 }
 
+.nav-item.active a {
+    border-bottom: 2px solid var(--white);
+}
+
+.header .navbar .nav-item a.nav-link {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.2rem;
+}

@@ -20,6 +20,10 @@ body {
     border: 1px solid var(--black);
 }
 
+.ua-borderb-white {
+    border-bottom: 1px solid var(--white);
+}
+
 .overflow-hidden {
     overflow: hidden;
 }
