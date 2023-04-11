@@ -149,8 +149,17 @@
 
 /*teammate*/
 
+.teammates {
+    gap: 8px;
+    overflow: hidden;
+}
+
+.teammate-wrapper {
+    width: 138px;
+}
+
 .teammate-avatar {
-    /*width: 138px;*/
+    width: 138px;
     /*height: 137px;*/
 }
 
@@ -162,26 +171,53 @@
     background-position: center;
 }
 
+/*scroller*/
+
+.ua-scroll-nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
+    .teammates {
+        gap: 16px;
+    }
+
+    .teammate-wrapper {
+        width: 176px;
+    }
+
     .teammate .social-icon {
         width: 30px;
         height: 30px;
     }
 
     .teammate-avatar {
-        /*width: 176px;*/
+        width: 176px;
         /*height: 157px;*/
     }
 }
 
 @media (min-width: 1200px) {
+    .teammates {
+        gap: 36px;
+    }
+
+    .teammate-wrapper {
+        width: 236px;
+    }
+
     .teammate .social-icon {
         width: 32px;
         height: 32px;
     }
 
     .teammate-avatar {
-        /*width: 236px;*/
+        width: 236px;
         /*height: 249px;*/
     }
 }

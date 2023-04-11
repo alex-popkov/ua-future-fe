@@ -23,27 +23,15 @@
     width: 100%;
 }
 
-.teammate-wrapper {
-    /*width: 50%;*/
-}
-
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .video-block {
         padding: 32px;
-    }
-
-    .teammate-wrapper {
-        /*width: 25%;*/
     }
 }
 
 @media (min-width: 1200px) {
     .video-block {
         padding: 32px;
-    }
-
-    .teammate-wrapper {
-        /*width: 20%;*/
     }
 }
