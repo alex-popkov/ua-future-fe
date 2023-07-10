@@ -79,6 +79,12 @@ body {
     }
 }
 
+@media (max-width: 767px) {
+    .w-sm-50 {
+        width: 50%;
+    }
+}
+
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .logo img {
@@ -98,6 +104,10 @@ body {
 
     .ua-form-control {
         padding: 20px 32px;
+    }
+
+    .mt-xl-18px {
+        margin-top: 18px;
     }
 }
 

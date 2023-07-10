@@ -8,6 +8,10 @@
     color: var(--white);
 }
 
+.text-red {
+ color: var(--red);
+}
+
 .font-weight-semibold {
     font-weight: 500;
 }

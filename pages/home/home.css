@@ -15,6 +15,11 @@
     padding-bottom: 80px;
 }
 
+.section-main_title {
+    font-size: 32px;
+    line-height: 35px;
+}
+
 .home .section--2 {
     background: var(--yellow);
     color: var(--black);
@@ -49,7 +54,7 @@
 }
 
 .section--3_logo {
-    background: var(--laght-gray);
+    background: rgba(47, 47, 51, 1);
     width: 100%;
 }
 
@@ -100,6 +105,11 @@
     .section-main_content {
         padding-top: 96px;
         padding-bottom: 186px;
+    }
+
+    .section-main_title {
+        font-size: 32px;
+        line-height: 35px;
     }
 
     .section--2_content {
@@ -154,6 +164,12 @@
     .section-main_content {
         padding-top: 96px;
         padding-bottom: 96px;
+    }
+
+    .section-main_title {
+        font-size: 48px;
+        line-height: 58px;
+        text-transform: uppercase;
     }
 
     .section--2_content {
