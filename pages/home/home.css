@@ -1,12 +1,6 @@
 @import url('../../layout/layout.css');
 
-.section {
-
-}
-
 .home .section-main {
-    background: url('../../assets/images/home-1-bg.png') no-repeat center;
-    background-size: cover;
     color: var(--white);
 }
 
@@ -67,8 +61,6 @@
 }
 
 .home .section--5 {
-    background: url('../../assets/images/home-5-bg.png') no-repeat center;
-    background-size: cover;
     color: var(--white);
 }
 

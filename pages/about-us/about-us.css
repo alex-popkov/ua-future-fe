@@ -1,6 +1,4 @@
 .about-us .section-main {
-    background: url('../../assets/images/about-us-1-bg.png') no-repeat center;
-    background-size: cover;
     color: var(--white);
 }
 
