@@ -1,5 +1,8 @@
 .about-us .section-main {
     color: var(--white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 
